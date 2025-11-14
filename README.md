@@ -1,118 +1,119 @@
-🇩🇪 Java Fakultät – Rekursive und Iterative Faktoriell-Berechnung
+🇬🇧 Java OOP – Car Class Example
 
-Dieses Projekt zeigt, wie man die Fakultät (n!) in Java mit zwei unterschiedlichen Methoden berechnet:
+This project demonstrates a simple Object-Oriented Programming (OOP) example in Java.
+It includes a Car class with key properties and getter/setter methods, as well as a Main class where a car object is created and printed to the console.
 
-Rekursiv (mit Selbstaufrufen einer Methode)
+📌 Features
 
-Iterativ (mit for- und while-Schleifen)
+Definition of a custom Java class (Car)
 
-Das Ziel ist es, Grundkonzepte wie Rekursion, Schleifen, Algorithmendesign und Laufzeitunterschiede einfach darzustellen.
+Use of encapsulation (private fields + getters/setters)
 
-🔍 Funktionen
+Object creation with new
 
-Rekursive Berechnung von n!
+Reading and modifying object attributes
 
-Iterative Berechnung mit for
+Clean and understandable structure for beginners
 
-Iterative Berechnung mit while
+🧱 Class Structure
+Car.java
 
-Saubere Konsolenausgabe
+Contains:
 
-Einfache, verständliche Strukturen für Anfänger und Studierende
+color → String
 
-📂 Projektstruktur
-src/
- └── Main.java
-.idea/
-.gitignore
-2025_10_28.iml
+model → String
 
-▶ Ausführung (Run)
+engine → double
 
-In IntelliJ IDEA:
+doors → int
 
-Projekt öffnen
+With getters and setters for each field.
 
-Main.java starten
+Main.java
 
-Ausgabe erscheint z. B. so:
+Creates a car object and prints its properties.
 
-rekursiv:       120
-iterativ (for): 120
-iterativ (while): 120
+🖥 Example Output
+Color: Silver
+Model: Volkswagen
+Engine: 1.6
+Number of Doors: 4
 
-🎓 Lernziele
+🚀 How to Run
 
-Dieses Projekt hilft beim Verständnis von:
+Clone the repository:
 
-Rekursion (Basisfall + Rekursionsschritt)
+git clone https://github.com/Onder-Demir/Java-OOP-Car-Example.git
 
-Stack-Mechanismus bei Methodenaufrufen
 
-Iterativen Algorithmen
-
-Zeitkomplexität: Rekursiv vs. Iterativ
-
-Sauberer Methodenstruktur in Java
-
-🇬🇧 Java Factorial Calculation — Recursive & Iterative
-
-This project demonstrates how to calculate the factorial (n!) in Java using two different approaches:
-
-Recursive (using self-calling methods)
-
-Iterative (using for and while loops)
-
-The goal is to provide simple, educational examples for programming students.
-
-🔍 Features
-
-Recursive factorial method
-
-Iterative factorial method (for-loop)
-
-Iterative factorial method (while-loop)
-
-Clear and readable console output
-
-Beginner-friendly code structure
-
-📂 Project Structure
-src/
- └── Main.java
-.idea/
-.gitignore
-2025_10_28.iml
-
-▶ How to Run
-
-Using IntelliJ IDEA:
-
-Open the project
+Open the project in IntelliJ IDEA (or another IDE)
 
 Run Main.java
 
-Expected output:
+The car details will be printed in the console
 
-rekursiv:       120
-iterativ (for): 120
-iterativ (while): 120
+👤 Author
 
-🎓 Learning Goals
+Önder Demir – WINFO Student @ THM
+Java • OOP • Algorithms • Software Development
 
-This project helps you understand:
+🇩🇪 Java OOP – Beispiel einer Car-Klasse
 
-Recursion (base case + recursive step)
+Dieses Projekt zeigt ein einfaches Beispiel für objektorientierte Programmierung (OOP) in Java.
+Es enthält eine Car-Klasse mit wichtigen Eigenschaften und Getter/Setter-Methoden sowie eine Main-Klasse, in der ein Autoobjekt erstellt und in der Konsole ausgegeben wird.
 
-How the call stack works
+📌 Funktionen
 
-Loop-based algorithm design
+Eigene Klasse (Car) definieren
 
-Time complexity differences
+Kapselung: private Felder + Getter/Setter
 
-Writing clean method structures in Java
+Objekterstellung mit new
 
-📄 License
+Objektattribute auslesen und ändern
 
-Dieses Projekt ist frei nutzbar für Lernzwecke.
-This project is free to use for educational purposes.
+Sehr verständlich für Java-Einsteiger
+
+🧱 Klassenstruktur
+Car.java
+
+Beinhaltet:
+
+color → String
+
+model → String
+
+engine → double
+
+doors → int
+
+Mit passenden Getter-/Setter-Methoden.
+
+Main.java
+
+Erstellt ein Autoobjekt und gibt die Werte aus.
+
+🖥 Beispielausgabe
+Farbe: Silber
+Modell: Volkswagen
+Motor: 1.6
+Anzahl der Türen: 4
+
+🚀 Ausführen
+
+Repository klonen
+
+git clone https://github.com/Onder-Demir/Java-OOP-Car-Example.git
+
+
+Projekt in IntelliJ oder einer anderen IDE öffnen
+
+Main.java starten
+
+Ausgabe erscheint in der Konsole
+
+👤 Autor
+
+Önder Demir – WINFO Student an der THM
+Java • OOP • Algorithmen • Softwareentwicklung

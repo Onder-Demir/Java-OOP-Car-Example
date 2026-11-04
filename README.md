@@ -115,5 +115,5 @@ Ausgabe erscheint in der Konsole
 
 👤 Autor
 
-Önder Demir – WINFO Student an der THM
+Önder Demir – WINFO Student an der TH-AB
 Java • OOP • Algorithmen • Softwareentwicklung
